@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+
+        android:src="@drawable/planning"></ImageView>
+
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:textColor="#000"
+        android:paddingEnd="80dp"
+        android:paddingStart="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img"
+        android:text="@string/get_started"
+        android:background="@drawable/options_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:id="@+id/btnLogin"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:textColor="#FFF"
+        android:paddingEnd="80dp"
+        android:paddingStart="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnGetStarted"
+        android:text="Login"
+        android:background="@drawable/btn_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnLogin"
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slide_desc" />
+
+
+</RelativeLayout>

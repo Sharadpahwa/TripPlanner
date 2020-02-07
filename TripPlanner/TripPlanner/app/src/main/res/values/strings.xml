@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Trip Planner</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Places</string>
+    <string name="slide_1_desc">Find amazing places,book experiences,and help us spred the power of travel.</string>
+
+    <string name="slide_2_title">Enjoyment</string>
+    <string name="slide_2_desc">Lets enjoy on vocation with trip planning.</string>
+
+    <string name="slide_3_title">Best Experience</string>
+    <string name="slide_3_desc">All features of app gives you amazing experice.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="get_started">Get Started</string>
+    <string name="register">Register</string>
+    <string name="email_id">Email id</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="home">Home</string>
+    <string name="admin_home">Admin home</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passLay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"
+        android:text="Login"
+        android:textColor="#FFF"></Button>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+
+        android:src="@drawable/planning"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/passLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userLay"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/password"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide_desc" />
+
+        <EditText
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:id="@+id/edtPassword"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/options_bg"
+            android:padding="5dp"></EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/username"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/slide_desc" />
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="200dp"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_bg"
+            android:padding="5dp"></EditText>
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_regular"
+
+            android:text="@string/login"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slide_desc" />
+
+
+</RelativeLayout>
